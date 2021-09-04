@@ -5,9 +5,15 @@
       <map>
         <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_calculator.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_edit_user.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_login.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_login1.xml" value="0.3055555555555556" />
         <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_profile.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/activity_profile1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/content_calculator.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/fragment_first.xml" value="0.3148148148148148" />
+        <entry key="..\:/Users/Hi/AndroidStudioProjects/HelloWorld/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
