@@ -5,10 +5,10 @@ public class ContactModel {
     private String phone;
     private int avatar;
 
-    public ContactModel(String name, String phone, int image) {
+    public ContactModel(String name, String phone, int avatar) {
         this.name = name;
         this.phone = phone;
-        this.avatar = image;
+        this.avatar = avatar;
     }
 
     public String getName() {
