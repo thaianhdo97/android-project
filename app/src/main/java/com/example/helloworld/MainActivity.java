@@ -17,22 +17,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // B1: Data source
+        initData();
+
+        // B2: Adapter
+        ProductAdapter adapter = new ProductAdapter(this, listProduct);
+
+        // B3: Layout Manager
+        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this, 2);
+//        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
+
+        // B4: RecyclerView
+        RecyclerView rvProduct = findViewById(R.id.rvProduct);
+        rvProduct.setLayoutManager(layoutManager);
+        rvProduct.setAdapter(adapter);
     }
-
-    // B1: Data source
-    initData();
-
-    // B2: Adapter
-    ProductAdapter adapter = new ProductAdapter(this, listProduct);
-
-    // B3: Layout Manager
-    RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this, 2);
-//    RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
-
-    // B4: RecyclerView
-    RecyclerView rvProduct = findViewById(R.id.rvProduct);
-    rvProduct.setLayoutManager(layoutManager);
-    rvProduct.setAdapter(adapter);
 
     private void initData() {
        listProduct.add(new Product("Product 1", "500.000", R.drawable.p1));
